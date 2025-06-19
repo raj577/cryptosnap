@@ -43,6 +43,8 @@ dev_dependencies:
   equatable: ^2.0.5
   cached_network_image: ^3.3.1
   fl_chart: ^0.64.0
+  google_generative_ai: ^0.2.1
+  flutter_dotenv: ^5.1.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

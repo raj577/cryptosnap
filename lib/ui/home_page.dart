@@ -61,6 +61,19 @@ class HomePage extends StatelessWidget {
           }
         },
       ),
+
+      // 👇 Add Floating Action Button for Gemini Q&A
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () {
+          Navigator.pushNamed(context, '/gemini'); // Make sure route is set
+        },
+        icon: const Icon(Icons.question_answer),
+        label: const Text('Ask Cryptbela'),
+        backgroundColor: Colors.deepPurple,
+      ),
+
+      // Optional (default): Position it bottom right
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
     );
   }
 }
